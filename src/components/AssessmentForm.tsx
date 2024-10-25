@@ -86,8 +86,8 @@ export function AssessmentForm({ onSuccess }: AssessmentFormProps) {
         >
           <option value="">Select type</option>
           <option value="Quiz">Quiz</option>
-          <option value="Homework">Homework</option>
-          <option value="Exam">Exam</option>
+          <option value="PR/Latihan">PR/Latihan</option>
+          <option value="Ualangan">Ualangan</option>
           <option value="Project">Project</option>
         </select>
       </div>

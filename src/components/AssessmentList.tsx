@@ -18,7 +18,7 @@ type AssessmentListProps = {
   error?: string;
 };
 
-const ITEMS_PER_PAGE = 30;
+const ITEMS_PER_PAGE = 20;
 
 export function AssessmentList({ assessments, onDelete, error }: AssessmentListProps) {
   const [editingAssessment, setEditingAssessment] = useState<Assessment | null>(null);
